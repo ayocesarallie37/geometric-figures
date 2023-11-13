@@ -38,42 +38,44 @@
         <div class="squareform">
             <section>
                 <h2>Calculate the area and perimeter of a triangule</h2>
-                <form>
-                    <div>
-                        <label for="sideInput">
-                            How long is side 1?
-                        </label>
-                    </div>
-                        <input type="number" id="sideInput">
-                    
-                    <div>
-                        <label for="saidInput">
-                            How long is side 2?
-                        </label>
-                    </div>
-                        <input type="number" id="saidInput">
-                    
-                    <div>
-                        <label for="base">
-                            How long is base?
-                        </label>
-                    </div>
-                        <input type="number" id="base">
+                <div>
+                    <form>
+                        <div>
+                            <label for="sideInput">
+                                How long is side 1?
+                            </label>
+                        </div>
+                            <input type="number" id="sideInput">
                         
-                    <div>
-                        <label for="altura">
-                            How long is height?
-                        </label>
-                    </div>
-                        <input type="number" id="altura">
-                        <p id="perimeterResult"></p>
-                        <p id="areaResult"></p>
-                    <div>
-                        <button type="button" onclick="perimeterCalculateTriangule()" class="button">Perimeter</button>
-                        <button type="button" onclick="areaCalculateTriangule()" class="button">area</button>
-                        <button type="reset" class="button">Reset</button>
-                    </div>
-                </form>
+                        <div>
+                            <label for="saidInput">
+                                How long is side 2?
+                            </label>
+                        </div>
+                            <input type="number" id="saidInput">
+                        
+                        <div>
+                            <label for="base">
+                                How long is base?
+                            </label>
+                        </div>
+                            <input type="number" id="base">
+                            
+                        <div>
+                            <label for="altura">
+                                How long is height?
+                            </label>
+                        </div>
+                            <input type="number" id="altura">
+                            <p id="perimeterResult"></p>
+                            <p id="areaResult"></p>
+                        <div>
+                            <button type="button" onclick="perimeterCalculateTriangule()" class="button">Perimeter</button>
+                            <button type="button" onclick="areaCalculateTriangule()" class="button">area</button>
+                            <button type="reset" class="button">Reset</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </div>
     </div>
@@ -89,11 +91,11 @@
                         <label for="squareInput2">
                             How long is the radius?
                         </label>
-                        </div>
-                        <input type="number" id="circleInput">
-                        <p id="perimeter2"></p>
-                        <p id="area2"></p>
-                        <div>
+                    </div>
+                    <input type="number" id="circleInput">
+                    <p id="perimeter2"></p>
+                    <p id="area2"></p>
+                    <div>
                         <button type="button" onclick="perimeterCalculateCircle()" class="button">Perimeter</button>
                         <button type="button" onclick="areaCalculateCircle()" class="button">area</button>
                         <button type="reset" class="button">Reset</button>
