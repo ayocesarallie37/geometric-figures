@@ -24,10 +24,7 @@ function areaCalculate() {
     document.getElementById("area").innerText = "Its area is: " + a + " cm.";
 }
 
-function clearAll() {
-    let display = document.querySelector("squareInput");
-    display.value='';
-}
+
 
 
 // Area de un circulo.
