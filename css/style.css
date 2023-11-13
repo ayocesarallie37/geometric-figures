@@ -58,6 +58,7 @@ input[type="number"]{
     padding: 20px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 9px 28px;
+    border-radius: 10%;
 }
 
 
