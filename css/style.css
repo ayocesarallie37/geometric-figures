@@ -75,9 +75,3 @@ input[type="number"]{
     width: 100px;
     height: 40px;
 }
-
-.divTriangle {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
